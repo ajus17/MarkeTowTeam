@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MarkeTow</string>
+    <string name="addComercio">Agregar Comercio</string>
+    <string name="etnombrecom">Nombre del comercio</string>
 </resources>

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".acceso">
+        <activity android:name=".acceso"
+            android:screenOrientation="sensorPortrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,6 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Producto"></activity>
+        <activity android:name=".addComercio"
+            android:label="@string/addComercio">
+        </activity>
     </application>
-
 </manifest>
