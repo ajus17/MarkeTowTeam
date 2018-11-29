@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".acceso"
+        <activity
+            android:name=".Producto"
+            android:label="@string/addProducto"
             android:screenOrientation="sensorPortrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,9 +19,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Producto"></activity>
-        <activity android:name=".addComercio"
-            android:label="@string/addComercio">
+        <activity
+            android:name=".acceso"
+            android:label="@string/addComercio" />
+        <activity
+            android:name=".addComercio"
+            android:label="@string/addComercio" />
+        <activity
+            android:name=".carrito"
+            android:label="Carrito de Producto"/>
+        <activity
+            android:name=".dellivery"
+            android:label="Dellivery">
         </activity>
     </application>
+
 </manifest>
