@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "400663848123",
+    "firebase_url": "https://marketow-9d95f.firebaseio.com",
+    "project_id": "marketow-9d95f",
+    "storage_bucket": "marketow-9d95f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400663848123:android:b8830d819095b949",
+        "android_client_info": {
+          "package_name": "com.example.adolfoursa.marketow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400663848123-3c24m7281ople78gl1tr3rkcg7b7nc8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adolfoursa.marketow",
+            "certificate_hash": "079bbf5dce2e794213e0d983ed68166b560ea7ce"
+          }
+        },
+        {
+          "client_id": "400663848123-d9vriddeqqv4lprvss31481rb03ptkqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJe3evrtDflfsTNrPIBRrtbES73YIDly4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400663848123-d9vriddeqqv4lprvss31481rb03ptkqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
