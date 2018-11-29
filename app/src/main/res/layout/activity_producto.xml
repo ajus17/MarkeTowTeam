@@ -1,9 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Producto">
+    tools:context=".Producto"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Código del producto"
+            android:ems="10"
+            android:inputType="text"
+            android:id="@+id/id"/>
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del producto"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/cantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cantidad de productos"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/comercio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre del comercio"
+            android:inputType="textPersonName" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/categoria_producto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></android.support.v7.widget.AppCompatSpinner>
+    </LinearLayout>
+</LinearLayout>
