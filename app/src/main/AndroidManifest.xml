@@ -11,62 +11,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
-            android:name=".acceso"
-            android:label="Agregar Acceso" >
-
             android:name=".Producto"
             android:label="@string/addProducto"
             android:screenOrientation="sensorPortrait" />
         <activity
             android:name=".acceso"
-            android:label="@string/app_name">
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".addComercio"
+            android:label="@string/addComercio" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-        android:name=".Producto"
-        android:label="@string/addProducto"
-        android:screenOrientation="sensorPortrait"/>
-        <activity
-            android:name=".addComercio"
-            android:label="@string/addComercio" />
+
         <activity
             android:name=".carrito"
             android:label="Carrito de Compra" />
+
         <activity
             android:name=".busqueda"
             android:label="Búsqueda de Negocio" />
-        <activity
-            android:name=".tipoenvio"
-            android:label="Tipo de Envío" />
-        <activity
-            android:name=".entrega"
-            android:label="Entrega" />
-        <activity
-            android:name=".pedido"
-            android:label="Pedido" />
-        <activity
-            android:name=".negocio"
-            android:label="Negocio" />
-        <activity
-            android:name=".registrarse"
-            android:label="Registrarse" />
-        <activity
-            android:name=".paneldecontrol"
-            android:label="Panel de Control" />
-        <activity android:name=".bienvenido"></activity>
-            android:name=".dellivery"
-            android:label="Dellivery" />
-        <activity
-            android:name=".busqueda"
-            android:label="Búsqueda de Negocio" />
-        <activity android:name=".bienvenida" />
-        <activity android:name=".registrar"></activity>
     </application>
 
 </manifest>

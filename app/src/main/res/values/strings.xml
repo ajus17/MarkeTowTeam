@@ -1,15 +1,8 @@
 <resources>
     <string name="app_name">MarkeTow</string>
-    <string name="addComercio">Agregar Acceso</string>
+    <string name="addComercio">Agregar Comercio</string>
     <string name="etnombrecom">Nombre del comercio</string>
     <string name="addProducto">Agregar Producto</string>
     <string name="addcarrito">Carrito de Compra</string>
-    <string name="addbusqueda">Búsqueda de Negocio</string>
-    <string name="addtipoenvio">Tipo de Envío</string>
-    <string name="addentrega">Entrega</string>
-    <string name="addpedido">Pedido</string>
-    <string name="addnegocio">Negocio</string>
-    <string name="addregistrarse">Registrarse</string>
-    <string name="addpanelcontrol">Panel de Control</string>
     <string name="adddellivery">Búsqueda de Negocio</string>
 </resources>

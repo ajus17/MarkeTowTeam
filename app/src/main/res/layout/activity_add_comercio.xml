@@ -14,12 +14,17 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/etnombrecom"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light" />
 
     <Button
         android:id="@+id/btSeleccionaFoto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:text="Seleccionar foto" />
 
     <Button
@@ -30,7 +35,7 @@
         android:text="Crear negocio"
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
         android:text="Crear negocio"
         android:visibility="invisible" />
 </LinearLayout>
