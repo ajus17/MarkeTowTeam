@@ -25,5 +25,6 @@
         android:id="@+id/btCrearComercio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Crear negocio" />
+        android:text="Crear negocio"
+        android:visibility="invisible" />
 </LinearLayout>
