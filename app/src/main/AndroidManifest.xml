@@ -29,12 +29,11 @@
             android:name=".carrito"
             android:label="Carrito de Compra" />
         <activity
-            android:name=".dellivery"
-            android:label="Dellivery"/>
-
-        <activity
             android:name=".busqueda"
-            android:label="Búsqueda de Negocio"></activity>
+            android:label="Búsqueda de Negocio" />
+        <activity
+            android:name=".tipoenvio"
+            android:label="Tipo de Envío"></activity>
     </application>
 
 </manifest>

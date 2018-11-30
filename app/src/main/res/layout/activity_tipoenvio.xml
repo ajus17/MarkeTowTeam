@@ -4,22 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dellivery">
+    tools:context=".tipoenvio">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_weight="1"
+        android:gravity="center_vertical"
         android:orientation="vertical">
 
-
-        <EditText
-            android:id="@+id/idcarrito"
+        <Button
+            android:id="@+id/delivery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="ID Carrito"
-            android:inputType="text" />
+            android:text="Delivery" />
+
+        <Button
+            android:id="@+id/envio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Local" />
+
 
     </LinearLayout>
+
 </LinearLayout>
