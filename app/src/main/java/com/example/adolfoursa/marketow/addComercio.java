@@ -70,7 +70,7 @@ public class addComercio extends AppCompatActivity {
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
 
                     dialog.cancel();
-                    Uri descargarFoto = ta
+
 
                     Toast.makeText(getApplicationContext(), "Foto subida correctamente", Toast.LENGTH_LONG).show();
 
