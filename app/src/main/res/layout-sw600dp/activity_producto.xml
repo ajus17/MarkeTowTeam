@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="@drawable/fonfo_conlogo_01"
+        android:gravity="center"
         android:orientation="vertical">
 
         <EditText
@@ -64,10 +65,10 @@
             android:id="@+id/guardar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Guardar producto"
             android:background="@color/colorAccent"
+            android:text="Guardar producto"
             android:textColor="@android:color/background_light"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>

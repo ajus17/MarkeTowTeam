@@ -5,32 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fonfo_conlogo_01"
+    android:gravity="center_vertical"
     android:orientation="vertical"
-    tools:context=".addComercio">
+    tools:context=".tipoenvio">
 
-    <EditText
-        android:id="@+id/txncomercio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/etnombrecom"
-        android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/btSeleccionaFoto"
+        android:id="@+id/btnDelivery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Seleccionar foto" />
-
-    <Button
-        android:id="@+id/btCrearComercio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:text="Crear negocio"
+        android:text="Delivery"
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
-        android:textStyle="bold"/>
-        android:text="Crear negocio"
-        android:visibility="invisible" />
+        android:textStyle="bold"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/btnLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Local"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"/>
+
 </LinearLayout>

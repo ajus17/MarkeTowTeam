@@ -16,21 +16,17 @@
         android:hint="@string/etnombrecom"
         android:inputType="textPersonName" />
 
-    <Button
-        android:id="@+id/btSeleccionaFoto"
+    <EditText
+        android:id="@+id/txdireccion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Seleccionar foto" />
+        android:ems="10"
+        android:hint="Dirección del local"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/btCrearComercio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:text="Crear negocio"
-        android:textColor="@android:color/background_light"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
-        android:text="Crear negocio"
-        android:visibility="invisible" />
+        android:text="Crear negocio" />
 </LinearLayout>
