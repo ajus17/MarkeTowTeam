@@ -19,15 +19,34 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundImage" value="/Volumes/OBED/P_A/fonfo_con_estampado-01.jpg" />
-                                      <entry key="backgroundLayerName" value="ic_launcher_background" />
-                                      <entry key="foregroundImage" value="/Volumes/OBED/P_A/fonfo_con_estampado-01.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_launcher_foreground" />
-                                      <entry key="outputName" value="fondo" />
+                                      <entry key="backgroundLayerName" value="icono" />
+                                      <entry key="foregroundImage" value="/Volumes/OBED/P_A/Sin título-5.png" />
+                                      <entry key="foregroundLayerName" value="ic-icono" />
+                                      <entry key="outputName" value="fondo1" />
+                                      <entry key="webIconShape" value="HRECT" />
                                     </map>
                                   </option>
                                 </PersistentState>
                               </value>
                             </entry>
+                            <entry key="launcherLegacy">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="imageAsset" value="/Volumes/OBED/P_A/Sin título-5.png" />
+                                      <entry key="outputName" value="ic_icono" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="outputIconType" value="LAUNCHER_LEGACY" />
                           </map>
                         </option>
                       </PersistentState>
