@@ -4,5 +4,5 @@
     <string name="etnombrecom">Nombre del comercio</string>
     <string name="addProducto">Agregar Producto</string>
     <string name="addcarrito">Carrito de Compra</string>
-       <string name="adddellivery">Búsqueda de Negocio</string>
+    <string name="adddellivery">Búsqueda de Negocio</string>
 </resources>
