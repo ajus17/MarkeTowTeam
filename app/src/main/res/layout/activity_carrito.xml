@@ -6,38 +6,53 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".carrito"
 android:orientation="vertical">
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:orientation="vertical">
-
-
-    <android.support.v7.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:id="@+id/pedir"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pedir" />
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/fonfo_conlogo_01"
+        android:gravity="center"
+        android:orientation="vertical">
 
 
-    <Button
-            android:id="@+id/comprar"
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/nombreproducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnPedir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Comprar" />
-  
-    <Button
-        android:id="@+id/eliminar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Eliminar Carrito" />
+            android:background="@color/colorAccent"
+            android:text="Pedir"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/btnAñadir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="añadir mas producto"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Eliminar Carrito"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 </LinearLayout>
 
 

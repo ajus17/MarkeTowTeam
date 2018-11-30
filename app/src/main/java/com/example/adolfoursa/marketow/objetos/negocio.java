@@ -2,34 +2,27 @@ package com.example.adolfoursa.marketow.objetos;
 
 public class negocio {
 
-    String nombreN;
-    int categoriaNegocio;
+
+    int categoria_negocio_id;
     String foto;
-    int idNegocio;
-    int idusuario;
+    int id;
+    String nombre;
+    int usuarios_idUsuario;
 
-    public negocio(String nombreN, int categoriaNegocio, String foto, int idNegocio, int idusuario) {
-        this.nombreN = nombreN;
-        this.categoriaNegocio = categoriaNegocio;
+    public negocio(int categoria_negocio_id, String foto, int id, String nombre, int usuarios_idUsuario) {
+        this.categoria_negocio_id = categoria_negocio_id;
         this.foto = foto;
-        this.idNegocio = idNegocio;
-        this.idusuario = idusuario;
+        this.id = id;
+        this.nombre = nombre;
+        this.usuarios_idUsuario = usuarios_idUsuario;
     }
 
-    public String getNombreN() {
-        return nombreN;
+    public int getCategoria_negocio_id() {
+        return categoria_negocio_id;
     }
 
-    public void setNombreN(String nombreN) {
-        this.nombreN = nombreN;
-    }
-
-    public int getCategoriaNegocio() {
-        return categoriaNegocio;
-    }
-
-    public void setCategoriaNegocio(int categoriaNegocio) {
-        this.categoriaNegocio = categoriaNegocio;
+    public void setCategoria_negocio_id(int categoria_negocio_id) {
+        this.categoria_negocio_id = categoria_negocio_id;
     }
 
     public String getFoto() {
@@ -40,19 +33,27 @@ public class negocio {
         this.foto = foto;
     }
 
-    public int getIdNegocio() {
-        return idNegocio;
+    public int getId() {
+        return id;
     }
 
-    public void setIdNegocio(int idNegocio) {
-        this.idNegocio = idNegocio;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public int getIdusuario() {
-        return idusuario;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setIdusuario(int idusuario) {
-        this.idusuario = idusuario;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getUsuarios_idUsuario() {
+        return usuarios_idUsuario;
+    }
+
+    public void setUsuarios_idUsuario(int usuarios_idUsuario) {
+        this.usuarios_idUsuario = usuarios_idUsuario;
     }
 }

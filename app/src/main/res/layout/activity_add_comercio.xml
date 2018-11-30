@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fonfo_conlogo_01"
     android:orientation="vertical"
     tools:context=".addComercio">
 
@@ -25,5 +26,11 @@
         android:id="@+id/btCrearComercio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Crear negocio" />
+        android:background="@color/colorAccent"
+        android:text="Crear negocio"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+        android:text="Crear negocio"
+        android:visibility="invisible" />
 </LinearLayout>
