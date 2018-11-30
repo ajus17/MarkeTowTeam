@@ -1,5 +1,4 @@
 package com.example.adolfoursa.marketow;
-
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,7 +11,7 @@ public class carrito extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carrito);
-        getSupportActionBar().setTitle("Carrito de Producto");
+        getSupportActionBar().setTitle("Carrito de compra");
         Button pedir = (Button) findViewById(R.id.btnPedir);
         pedir.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +42,5 @@ public class carrito extends AppCompatActivity {
 
             }
         });
-
     }
 }

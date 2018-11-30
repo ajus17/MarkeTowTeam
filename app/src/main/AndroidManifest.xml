@@ -37,7 +37,7 @@
             android:label="@string/addComercio" />
         <activity
             android:name=".carrito"
-            android:label="Carrito de Compra" />
+            android:label="Carrito de Compra"/>
         <activity
             android:name=".busqueda"
             android:label="Búsqueda de Negocio" />
