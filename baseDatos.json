@@ -1,0 +1,77 @@
+{
+  "carrito": [
+    {
+      "id": "1",
+      "direccion_temp": "unan managua",
+      "CarritoListo": "1",
+      "delivery": "0"
+    }
+  ],
+  "categoriaproducto": [
+    {
+      "idcatProd": "1",
+      "nombreCategoriaProd": "ropa interior"
+    },
+    {
+      "idcatProd": "2",
+      "nombreCategoriaProd": "camisas"
+    }
+  ],
+  "categoria_negocio": [
+    {
+      "id": "1",
+      "nombre": "Ropa"
+    }
+  ],
+  "negocio": [
+    {
+      "id": "1",
+      "nombre": "Closet de anne",
+      "usuarios_idUsuario": "1",
+      "categoria_negocio_id": "1",
+      "foto": "www.google.com"
+    }
+  ],
+  "producto": [
+    {
+      "idProducto": "1",
+      "nombre": "Camisas polo",
+      "cantidad": "12",
+      "precio": "250",
+      "foto": "www.google.com",
+      "negocio_id": "1",
+      "categoriaProducto_idcatProd": "2"
+    }
+  ],
+  "tipo_usuario": [
+    {
+      "id": "1",
+      "nombre": "Cliente"
+    },
+    {
+      "id": "2",
+      "nombre": "Comerciante"
+    }
+  ],
+  "usuarios": [
+    {
+      "cedula": "0010806920045X",
+      "nombre": "Adolfo",
+      "apellido": "Urbina",
+      "contrasena": "123",
+      "direccion": "Managua, Villa cuba",
+      "telefono": "85671404",
+      "correo": "adolfoursa92@hotmail.com",
+      "foto": "hhtp:/www.google.com",
+      "tipo_usuario_id": "2"
+    }
+  ],
+  "usuarios_has_producto": [
+    {
+      "usuarios_cedula": "0010806920045X",
+      "producto_idProducto": "1",
+      "descripcion": "talla XL",
+      "carrito_id": "1"
+    }
+  ]
+}

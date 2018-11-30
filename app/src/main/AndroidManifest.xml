@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.adolfoursa.marketow">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,6 +15,13 @@
         <activity
             android:name=".acceso"
             android:label="Agregar Acceso" >
+
+            android:name=".Producto"
+            android:label="@string/addProducto"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".acceso"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,6 +60,13 @@
             android:name=".paneldecontrol"
             android:label="Panel de Control" />
         <activity android:name=".bienvenido"></activity>
+            android:name=".dellivery"
+            android:label="Dellivery" />
+        <activity
+            android:name=".busqueda"
+            android:label="Búsqueda de Negocio" />
+        <activity android:name=".bienvenida" />
+        <activity android:name=".registrar"></activity>
     </application>
 
 </manifest>
