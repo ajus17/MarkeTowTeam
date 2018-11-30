@@ -33,6 +33,8 @@ public class acceso extends AppCompatActivity {
                     {
                     Toast.makeText(getApplicationContext(),"Usuario Incorrecto", Toast.LENGTH_LONG).show();
                     ((EditText) findViewById(R.id.txtUsuario)).setText("");
+                    ((EditText) findViewById(R.id.txtContraseña)).setText("");
+                    ((EditText) findViewById(R.id.txtUsuario)).requestFocus();
 
                 }
             }
