@@ -38,6 +38,13 @@
             android:hint="Producto Id"
             android:inputType="numberDecimal" />
 
+
+        <Button
+            android:id="@+id/comprar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comprar" />
+
     </LinearLayout>
 </LinearLayout>
 
