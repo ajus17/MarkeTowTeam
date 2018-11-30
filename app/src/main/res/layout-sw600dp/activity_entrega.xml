@@ -4,38 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
+    android:background="@drawable/fonfo_conlogo_01"
+    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".busqueda">
+    tools:context=".entrega">
 
-
-    <android.support.v7.widget.AppCompatSpinner
-        android:id="@+id/btnCategoria_negocio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"></android.support.v7.widget.AppCompatSpinner>
 
     <EditText
-        android:id="@+id/negocio"
+        android:id="@+id/txtDireccion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Nombre del Negocio"
+        android:gravity="top|bottom"
+        android:hint="Dirección"
         android:inputType="textPersonName" />
 
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/nombreproducto"
+    <EditText
+        android:id="@+id/txtTelefono"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@drawable/fonfo_conlogo_01" />
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="top|bottom"
+        android:hint="Teléfono"
+        android:inputType="textPersonName" />
+
 
     <Button
-        android:id="@+id/btnverdura"
+        android:id="@+id/txtEntregado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
-        android:text="Verdura"
+        android:text="Entregado"
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
         android:textStyle="bold" />
