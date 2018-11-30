@@ -3,6 +3,7 @@
     <string name="addComercio">Agregar Comercio</string>
     <string name="etnombrecom">Nombre del comercio</string>
     <string name="addProducto">Agregar Producto</string>
-    <string name="addcarrito" >Carrito de Compra</string>
+    <string name="addcarrito">Carrito de Compra</string>
     <string name="adddellivery">Dellivery</string>
+    <string name="adddellivery">Búsqueda de Negocio</string>
 </resources>
