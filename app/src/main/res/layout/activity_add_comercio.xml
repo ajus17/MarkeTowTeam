@@ -15,13 +15,11 @@
         android:hint="@string/etnombrecom"
         android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/txdireccion"
+    <Button
+        android:id="@+id/btSeleccionaFoto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Dirección del local"
-        android:inputType="textPersonName" />
+        android:text="Seleccionar foto" />
 
     <Button
         android:id="@+id/btCrearComercio"

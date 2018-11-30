@@ -30,8 +30,11 @@
             android:label="Carrito de Compra"/>
         <activity
             android:name=".dellivery"
-            android:label="Dellivery">
-        </activity>
+            android:label="Dellivery"/>
+
+        <activity
+            android:name=".busqueda"
+            android:label="Búsqueda de Negocio"></activity>
     </application>
 
 </manifest>
