@@ -3,13 +3,13 @@ package com.example.adolfoursa.marketow.objetos;
 public class negocio {
 
 
-    int categoria_negocio_id;
+    String categoria_negocio_id;
     String foto;
-    int id;
+    String id;
     String nombre;
-    int usuarios_idUsuario;
+    String usuarios_idUsuario;
 
-    public negocio(int categoria_negocio_id, String foto, int id, String nombre, int usuarios_idUsuario) {
+    public negocio(String categoria_negocio_id, String foto, String id, String nombre, String usuarios_idUsuario) {
         this.categoria_negocio_id = categoria_negocio_id;
         this.foto = foto;
         this.id = id;
@@ -17,11 +17,11 @@ public class negocio {
         this.usuarios_idUsuario = usuarios_idUsuario;
     }
 
-    public int getCategoria_negocio_id() {
+    public String getCategoria_negocio_id() {
         return categoria_negocio_id;
     }
 
-    public void setCategoria_negocio_id(int categoria_negocio_id) {
+    public void setCategoria_negocio_id(String categoria_negocio_id) {
         this.categoria_negocio_id = categoria_negocio_id;
     }
 
@@ -33,11 +33,11 @@ public class negocio {
         this.foto = foto;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -49,11 +49,11 @@ public class negocio {
         this.nombre = nombre;
     }
 
-    public int getUsuarios_idUsuario() {
+    public String getUsuarios_idUsuario() {
         return usuarios_idUsuario;
     }
 
-    public void setUsuarios_idUsuario(int usuarios_idUsuario) {
+    public void setUsuarios_idUsuario(String usuarios_idUsuario) {
         this.usuarios_idUsuario = usuarios_idUsuario;
     }
 }

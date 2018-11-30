@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import static com.example.adolfoursa.marketow.R.layout.activity_bienvenido;
+
 public class bienvenido extends AppCompatActivity {
 
     @Override

@@ -10,5 +10,6 @@ public class tipoenvio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tipoenvio);
         getSupportActionBar().setTitle("Tipo de Envío");
+
     }
 }

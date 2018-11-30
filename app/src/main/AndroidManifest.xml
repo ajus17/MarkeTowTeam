@@ -17,25 +17,38 @@
             android:screenOrientation="sensorPortrait" />
         <activity
             android:name=".acceso"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name"> <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
 
         <activity
             android:name=".addComercio"
-            android:label="@string/addComercio" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:label="@string/addComercio" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
+           <activity
             android:name=".carrito"
             android:label="Carrito de Compra" />
 
         <activity
             android:name=".busqueda"
             android:label="Búsqueda de Negocio" />
+
+        <activity
+        android:name=".registrarse"
+        android:label="Registrar usuario" />
+
+        <activity
+            android:name=".bienvenido"
+            android:label="Pantalla bienvenida" />
+
+        <activity
+            android:name=".pedido"
+            android:label="Pedido" />
+        <activity
+            android:name=".tipoenvio"
+            android:label="Tipo de envio" />
     </application>
 
 </manifest>

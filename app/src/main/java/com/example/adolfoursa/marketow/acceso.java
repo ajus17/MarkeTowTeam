@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import android.widget.Button;
@@ -13,7 +14,7 @@ import android.widget.Button;
 public class acceso extends AppCompatActivity {
 
     //Atributos de la clase
-    Button btIngresa;
+    Button btIngresa, lblcrear;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,8 @@ public class acceso extends AppCompatActivity {
 
         getSupportActionBar().hide();
         Button boton = (Button) findViewById(R.id.btnIngresar);
+        lblcrear = findViewById(R.id.btnreg);
+
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,8 +39,19 @@ public class acceso extends AppCompatActivity {
                 {
                     Toast.makeText(getApplicationContext(),"Usuario Incorrecto", Toast.LENGTH_LONG).show();
                     ((EditText) findViewById(R.id.txtUsuario)).setText("");
+                    ((EditText) findViewById(R.id.txcontrasena)).setText("");
+                    ((EditText) findViewById(R.id.txtUsuario)).requestFocus();
+
 
                 }
+            }
+        });
+
+        lblcrear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(acceso.this, registrarse.class);
+                startActivity(in);
             }
         });
     }

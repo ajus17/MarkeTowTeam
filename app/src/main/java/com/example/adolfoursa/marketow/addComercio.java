@@ -90,7 +90,7 @@ public class addComercio extends AppCompatActivity {
 
                 DatabaseReference clientesRef = FirebaseDatabase.getInstance().getReference().child("negocio").child(""+contador);
 
-                negocio negocio = new negocio(1,""+direccionimg,1,txcomerce.getText().toString(),1);
+                negocio negocio = new negocio(1+"",""+direccionimg,1+"",txcomerce.getText().toString(),1+"");
 
                 clientesRef.setValue(negocio);
                 Toast.makeText(getApplicationContext(), "guardado",Toast.LENGTH_LONG).show();

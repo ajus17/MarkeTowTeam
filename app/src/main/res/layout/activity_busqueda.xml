@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
+    android:background="@drawable/fonfo_conlogo_01"
     tools:context=".busqueda">
 
 
@@ -23,19 +24,17 @@
         android:inputType="textPersonName" />
 
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/nombreproducto"
+    <TextView
+        android:id="@+id/txtComercio"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@drawable/fonfo_conlogo_01" />
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/btnverdura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
-        android:text="Verdura"
+        android:text="Siguiente"
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
         android:textStyle="bold" />

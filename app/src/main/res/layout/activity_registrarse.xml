@@ -54,34 +54,59 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/txtCorreo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Correo"
-            android:inputType="text" />
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="text" />
 
         <EditText
-            android:id="@+id/txtTipoUsuario"
+            android:id="@+id/txcontrasena"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Tipo de Usuario"
+            android:hint="Contraseña"
             android:inputType="text" />
 
-        <RadioButton
-            android:id="@+id/rdbVendedor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Vendedor" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
 
-        <RadioButton
-            android:id="@+id/rdbCliente"
-            android:layout_width="wrap_content"
+            <RadioButton
+                android:id="@+id/rbtCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cliente" />
+
+            <RadioButton
+                android:id="@+id/rbtComerciante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Comerciante" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnFoto"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Cliente" />
+            android:text="Seleccionar foto" />
+
+        <Button
+            android:id="@+id/btnguardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ir al login"
+            android:visibility="invisible" />
 
     </LinearLayout>
 
